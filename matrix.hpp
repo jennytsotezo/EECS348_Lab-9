@@ -158,6 +158,6 @@ public:
             throw out_of_range("Index out of bounds");
         (*this)(row, col) = newValue;
     }
-};
+}; 
 
 #endif // MATRIX_HPP
